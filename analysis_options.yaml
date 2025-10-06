@@ -1,8 +1,10 @@
-include: package:flutter_lints/flutter.yaml
+include: package:flutter_lints/flutter.yaml # Usa por default las reglas "linter" del packade flutter lints
 
 linter:
   rules: 
+    always_specify_types: true
     avoid_print: true
+    directives_ordering: true
     prefer_single_quotes: true
 
 analyzer:
