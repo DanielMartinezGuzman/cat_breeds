@@ -21,3 +21,8 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets\fonts\Poppins-Italic.ttf
+          style: italic
