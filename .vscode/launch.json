@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "configurations": [
+    {
+      "type": "dart",
+      "request": "launch",
+      "name": "cat_breeds: DEV",
+      "program": "lib/main.dart",
+      "args": [
+        "--dart-define=apiToken=$API_TOKEN"
+      ]
+    }
+  ]
+}
