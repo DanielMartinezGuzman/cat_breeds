@@ -4,7 +4,7 @@ class BreedImageAsyncNotifier extends AsyncNotifier<String> {
   BreedImageAsyncNotifier(this.id);
   final String id;
   @override
-  Future<String> build() => Service.instance.getImageById(id);
+  Future<String> build() => ref.read(serviceProvider).getImageById(id);
 }
 
 final AsyncNotifierProviderFamily<BreedImageAsyncNotifier, String, String>
