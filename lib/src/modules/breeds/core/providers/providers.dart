@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:cat_breeds/src/modules/breeds/core/providers/providers/service_provider.dart';
 import 'package:cat_breeds/src/modules/breeds/core/service/service.dart';
 import 'package:cat_breeds/src/modules/breeds/models/breed/breed.dart';
 import 'package:cat_breeds/src/modules/breeds/models/pagination/page.dart';

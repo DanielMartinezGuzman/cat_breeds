@@ -1,4 +1,4 @@
-part of '../../notifier.dart';
+part of '../../providers.dart';
 
 class PaginatorState {
   PaginatorState({

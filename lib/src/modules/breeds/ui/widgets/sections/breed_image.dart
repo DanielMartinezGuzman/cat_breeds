@@ -1,4 +1,4 @@
-import 'package:cat_breeds/src/modules/breeds/core/providers/notifier.dart';
+import 'package:cat_breeds/src/modules/breeds/core/providers/providers.dart';
 import 'package:cat_breeds/src/modules/breeds/ui/widgets/shimmer/shimmer.dart';
 import 'package:cat_breeds/src/shared/widgets/image/image_container.dart';
 import 'package:flutter/widgets.dart';

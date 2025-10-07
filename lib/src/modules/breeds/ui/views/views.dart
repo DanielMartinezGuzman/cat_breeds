@@ -1,5 +1,5 @@
 import 'package:cat_breeds/src/modules/breeds/core/navigation/navigation.dart';
-import 'package:cat_breeds/src/modules/breeds/core/providers/notifier.dart';
+import 'package:cat_breeds/src/modules/breeds/core/providers/providers.dart';
 import 'package:cat_breeds/src/modules/breeds/models/breed/breed.dart';
 import 'package:cat_breeds/src/modules/breeds/ui/widgets/buttons/load_more.dart';
 import 'package:cat_breeds/src/modules/breeds/ui/widgets/cards/overview_card.dart';

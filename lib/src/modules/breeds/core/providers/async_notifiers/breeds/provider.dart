@@ -1,4 +1,4 @@
-part of '../../notifier.dart';
+part of '../../providers.dart';
 
 AsyncNotifierProvider<BreedsOverviewProvider, PaginatorState>
 breedsAsynProvider =
