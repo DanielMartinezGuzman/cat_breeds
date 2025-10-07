@@ -8,12 +8,13 @@ class EmptyState extends StatelessWidget {
   Widget build(BuildContext context) {
     double iconSize = 64;
     return Center(
+      key: const Key('empty_section_key'),
       child: Padding(
         padding: EdgeInsets.all(UILayout.instance.layout24),
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: <Widget>[
-            Icon(Icons.inbox, size: iconSize),
+            Icon(key: const Key('empty_icon_key'), Icons.inbox, size: iconSize),
             SizedBox(height: UILayout.instance.layout16),
             Text(
               'WITHOUT INFO ...',
